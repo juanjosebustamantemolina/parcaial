@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> parcial </title>
+	<style>
+	.inetrfaz{
+	width: 2000px;
+	height: 1000px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: red;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	transform:x;
+	}
+	.tema1{
+		width:100px;
+	height: 80px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+border: solid 2px black;
+	
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	
+}
+.texto1{
+width: 580px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 400px;
+	background: red;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	display: none;
+	transform:x;
+}
+.cerrar{
+width:100px;
+	height: 80px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;}
+
+	.tema2{
+	width:100px;
+	height: 80px;
+	position: absolute;
+	top: 500px;
+	left: 900px;
+border: solid 2px black;
+	
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	
+
+	}
+.texto2{
+width: 580px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 400px;
+	background: red;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	display: none;
+	transform:x;
+
+}
+.cerrar2{
+width:100px;
+	height: 80px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+}
+
+	</style>
+
+
+</head>
+<body>
+<div class="inetrfaz"></div>
+<div class="tema1" onclick="document.getElementById('texto').style.display='block'">TEMA1</div>
+<div class="texto1" id="texto">
+<div class="cerrar"onclick="document.getElementById('texto').style.display='none'" >CERRAR</div>
+</div>
+<div class="tema2" onclick="document.getElementById('texto2').style.display='block'">TEMA2</div>
+<div class="texto2" id="texto2">
+<div class="cerrar2" onclick="document.getElementById('texto2').style.display='none'">CERRA</div>
+</div>
+
+</body>
+</html>
